@@ -1,9 +1,14 @@
 nav(class="navbar navbar-expand-lg navbar-color")
   img(src="bilder/loga.svg" alt="" class="img-fluid loga")
+  // h1(class="logaTextUp") Bild
+  // h1(class="logaTextMid") Terapi
+  //h1(class="logaTextDown") Huset
   h1(class="logaTextUp") Bild
-  h1(class="logaTextMid") Terapi
-  h1(class="logaTextDown") Huset
-    span(class="navbar-toggler-icon")
+    br
+    span(class="bildTextMid") Terapi
+    br
+    | Huset
+  span(class="navbar-toggler-icon")
   div(class="collapse navbar-collapse" id="navbarNav")
     ul(class="navbar-nav navBarGrej")
       li(class="nav-item active kontaktBox")
@@ -12,3 +17,4 @@ nav(class="navbar navbar-expand-lg navbar-color")
             span(class="sr-only") (current)
       li(class="nav-item infoBox")
       span(class="border-0 navBarBorder")
+        a(class="nav-link info" href="#") Mer info 
