@@ -3,8 +3,7 @@
 }
 
 .loga {
-    height: 15%;
-    width: 15%;
+    height: 4.5rem;
 }
 
 .navbarText {
@@ -17,4 +16,39 @@
 }
 .logaTextMid {
     font-size: 1.5rem;
+}
+
+.frontBild {
+    margin-top: 5%;
+
+    height: 40%;
+    width: 100%;
+
+    margin-left: 4%;
+    
+}
+
+.boka {
+    background-color: rgba(85, 84, 67, 1);
+    border-color: rgba(85, 84, 67, 1);
+
+    margin-left: 26%;
+    margin-top: 12%;
+
+    height: 3.5rem;
+    width: 12rem;
+
+    border-radius: 0.1em;
+}
+.pers {
+    background-color: rgba(85, 84, 67, 1);
+    border-color: rgba(85, 84, 67, 1);
+
+    margin-left: 26%;
+    margin-top: 4%;
+
+    height: 3.5rem;
+    width: 12rem;
+
+    border-radius: 0.1em;
 }
