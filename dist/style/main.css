@@ -21,10 +21,10 @@
 .frontBild {
     margin-top: 5%;
 
-    height: 40%;
-    width: 100%;
+    height: 40vh;
+    width: 100vw;
 
-    margin-left: 4%;
+    margin: 0;  
     
 }
 
