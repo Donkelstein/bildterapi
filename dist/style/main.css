@@ -1,93 +1,20 @@
-.navbar-color {
-    background-color: #a48a4a;
-
-    height: 6em;
+.navbar-custom  {
+    background-color: rgba(164, 138, 74, 1)
 }
 
 .loga {
-    height: 5em;
+    height: 15%;
+    width: 15%;
+}
 
-    margin-left: 6%;
+.navbarText {
+    font-size: 2rem;
+    padding-left: 10%;
 }
 
 .logaTextUp {
-    color: rgba(255, 255, 255, 1);
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 .logaTextMid {
-    color: rgba(255, 255, 255, 1);
-    font-size: 1.5em;
-    position: absolute;
-}
-.logaTextDown {
-    color: rgba(255, 255, 255, 1);
-    font-size: 1.5em;
-}
-
-.navbar .navbar-brand,
-.navbar .navbar-text {
-
-    color: rgba(255, 255, 255, 1);
-
-    font-family: 'Lato', sans-serif;
-    font-size: 20px;
-}
-
-.navbar .navbar-nav .nav-link {
-    
-    color: rgba(255, 255, 255, 1);
-
-    font-family: 'Lato', sans-serif;
-    font-size: 35px;
-}
-
-.kontaktBox {
-    margin-left: 40%;
-}
-.infoBox {
-    margin-left: 5%;
-}
-
-.navBarGrej {
-    width: 100%;
-}
-
-.navBarBorder {
-    background-color: #555443;
-    border-radius: 1em;
-}
-
-.bild {
-    margin-top: 6%;
-    margin-left: 6%;
-
-    width: 30%;
-    height: 30%;
-}
-
-.vBild {
-    width: 45%;
-    height: 45%;
-    
-    margin-right: 60%;
-}
-
-.vText {
-    color: rgba(85, 84, 67, 1);
-    font-family: 'Lato', sans-serif;
-}
-
-.bildTextBox {
-    width: 40%;
-    height: 10em;
-    position: absolute;
-    left: 50%;
-    top: 35%;
-}
-
-.bildText {
-    color: rgba(85, 84, 67, 1);
-    font-family: 'Lato', sans-serif;
-    font-size: 1.5em;
-    
+    font-size: 1.5rem;
 }
