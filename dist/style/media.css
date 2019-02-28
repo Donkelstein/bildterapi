@@ -1,46 +1,61 @@
-@media screen and (min-width: 800px) {
+@media screen and (max-width: 731px) {
+  .frontbild {
+    margin-left: 0px;
+    margin-top: 0px;
+
+    height: 275px;
+  }
+
+  .navbar-custom {
+    border-bottom: solid;
+    border-width: 7px;
+    border-bottom-color: rgba(85, 84, 67, 1);
+  }
+
+
+
+  .text {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 731px) {
   .boka {
-    background-color: #555443;
-    border-color: #555443;
-    margin-left: 26%;
-    margin-top: 12%;
-    height: 3.5rem;
-    width: 12rem;
-    border-radius: 0.1em;
+    border: solid;
+    border-radius: 5px;
+    border-color: rgba(85, 84, 67, 1);
+
+    margin-left: 50vw;
+    margin-top: 40px;
+    width: 220px;
+
+    background-color: rgba(164, 138, 74, 1);
+    transform: translate(-50%, 0);
+  }
+  .bokaText {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-top: 6px;
   }
 
-  .pers {
-    background-color: #555443;
-    border-color: #555443;
-    margin-left: 26%;
-    margin-top: 4%;
-    height: 3.5rem;
-    width: 12rem;
-    border-radius: 0.1em;
-  }
-}
-@media screen and (max-width: 550px) {
-  .frontBild {
-    display: block;
-  }
+  .tera {
+    border: solid;
+    border-radius: 5px;
+    border-color: rgba(85, 84, 67, 1);
 
-  .frontBild2 {
-    display: none;
-  }
-}
-@media screen and (max-width: 450px) {
-  .frontBild {
-    display: none;
-  }
-}
-@media screen and (max-width: 1126px) {
-  .frontBild2 {
-    display: block;
-  }
+    margin-left: 50vw;
+    margin-top: 40px;
+    width: 220px;
 
-  .frontBild {
-    display: none;
+    background-color: rgba(164, 138, 74, 1);
+    transform: translate(-50%, 0);
   }
+  .teraText {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-top: 6px;
+  }
+  
 }
-
-/*# sourceMappingURL=media.css.map */
